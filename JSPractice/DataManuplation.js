@@ -61,3 +61,38 @@ let cart = [
 ]
 let totalCartAmount = cart.reduce((total, price) => total + price.Price, 0);
 console.log("Total Cart is " + totalCartAmount)
+
+
+// 4. Every Determines whether all the members of an array satisfy the specified test.
+let array = [10, 28, 60, 164, 29, 7]
+console.log(array.every((e) => e < 200));
+console.log(array.every((e) => e < 100));
+
+
+// 5. Some 
+let arraynew = [10, 28, 60, 164, 29, 7]
+console.log(arraynew.some((e) => e < 100))
+console.log(array.every((e) => e > 200));
+
+// 6. find
+let arraynew2 = [10, 28, 60, 164, 29, 7]
+console.log(arraynew2.find((e) => e < 100))
+console.log(arraynew2.find((e) => e > 100))
+
+// 7. IndexOf
+let arraynew3 = [10, 28, 60, 164, 29, 7, 10]
+console.log(arraynew3.indexOf(100))
+console.log(arraynew3.indexOf(7))
+
+// 8. LastIndexOf
+console.log(arraynew3.lastIndexOf(100))
+console.log(arraynew3.lastIndexOf(10))
+
+
+// 9. reverse
+console.log(arraynew3.reverse());
+
+// 9. sort
+console.log(arraynew3.sort());
+
+
