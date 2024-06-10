@@ -16,7 +16,7 @@ console.log(result2);
 const person =
     { name: 'Waleed', age: 30, lname: 'Mohammed' }
 
-const Fname = person => `${person.name} ${person.lname}`
+const Fname = person => `${person.name} ${person.lname}` 
 
 console.log(Fname(person));
 
